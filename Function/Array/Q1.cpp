@@ -2,12 +2,12 @@
 using namespace std;
 
 void array(){
-    int num;
+    int a;
     cout << "Enter a size of array : ";
-    cin >> num;
+    cin >> a;
     
-    int arr[num];
-    for (int i=0; i<num; i++){
+    int arr[a];
+    for (int i=0; i<a; i++){
         cin >> arr[i];
     }
     
@@ -20,14 +20,14 @@ void array(){
     int sum=0;
     int avg;
 
-    for(int i=0; i<num; i++){
+    for(int i=0; i<a; i++){
         sum += arr[i];
     }
     if(choice == 1){
         cout << "Sum of array is : " << sum << endl << endl;
     } 
     else if(choice == 2){
-        avg = sum / num; 
+        avg = sum / a; 
         cout << "Average of array is : " << avg;
     } 
 };
