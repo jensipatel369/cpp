@@ -14,18 +14,10 @@ int multiply(int a,int b){
 };
 
 int division(int a,int b){
-    if (b==0){
-        cout << "Error: Division by zero!";
-        return 0;
-    }
     return a/b;
 }
 
 int module(int a, int b){
-    if (b==0){
-        cout << "Error: Modulus by zero!";
-        return 0;
-    }
     return a%b;
 }
 
