@@ -15,11 +15,11 @@ int multiply(int a,int b){
 
 int division(int a,int b){
     return a/b;
-}
+};
 
 int module(int a, int b){
     return a%b;
-}
+};
 
 int main(){
 
