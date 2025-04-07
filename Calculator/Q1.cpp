@@ -24,6 +24,7 @@ int module(int a, int b){
 int main(){
 
     do{
+      
         int choice;
 
         cout << "Press 1 for +" << endl;
