@@ -7,7 +7,6 @@ using namespace std;
 template <typename T1,typename T2,typename T3> 
 class person{
     public :
-    
     T1 id;
     T1 age;
     T2 interest;
