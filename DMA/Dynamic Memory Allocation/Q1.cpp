@@ -2,7 +2,7 @@
 using namespace std;
 
 class node{
-public:
+  public:
     int data;
     node *next;
 
@@ -13,15 +13,16 @@ public:
 };
 
 class linklist{
-public:
+  public:
     node *head = NULL;
     int count = 0;
 
-    linklist()    {
+    linklist(){
         this->head = NULL;
         this->count = 0;
     }
 
+    //Insert of the list
     void insertelementstart(int element){
         node *newnode = new node(element);
         newnode->next = this->head;
@@ -30,6 +31,7 @@ public:
         cout << "Data inserted successfully !" << endl;
     }
 
+    //End of the list
     void insertelementend(int element){
         node *newnode = new node(element);
         if (this->head == NULL){
@@ -46,6 +48,7 @@ public:
         }
     }
 
+    //Any position of the list
     void insertatposition(int element, int position){
         node *newnode = new node(element);
         if (position == 0){
@@ -64,6 +67,7 @@ public:
         cout << "Element inserted at given position successfully!" << endl;
     }
 
+    //Print list
     void printList(){
         node *ptr = this->head;
         cout << "Linked List: ";
@@ -74,6 +78,7 @@ public:
         cout << "NULL" << endl;
     }
 
+    //Get all node
     void getallnode(){
         node *ptr = this->head;
         while (ptr != NULL){
@@ -83,6 +88,7 @@ public:
         cout << endl;
     }
 
+    //Update position of the list
     void updatenode(int element, int position){
         node *ptr = this->head;
         for (int i = 1; i < position; i++){
@@ -92,6 +98,7 @@ public:
         cout << "Node update successfully ! " << endl;
     }
 
+    //Delete start of the list
     void deleteFromStart(){
         if (this->head == NULL){
             cout << "List is empty, nothing to delete!" << endl;
@@ -105,6 +112,7 @@ public:
         cout << "First node deleted successfully!" << endl;
     }
 
+    //Delete end of the list
     void deleteFromEnd(){
         if (this->head == NULL){
             cout << "List is empty, nothing to delete!" << endl;
