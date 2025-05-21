@@ -65,7 +65,7 @@ class Stack{
 
     void isfull(){
          if(this->capacity == this->count){
-            cout << "Stack is isfull..!" << endl << endl;
+            cout << "Stack is full..!" << endl << endl;
         }else{
             cout << "Stack is not full..!" << endl << endl;
         }

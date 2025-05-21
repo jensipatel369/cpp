@@ -9,7 +9,7 @@ int main(){
 
     int choice;
 
-    do{z
+    do{
         cout << "Welcome to Array Program..!" << endl << endl;
 
         cout << "Press 1 To Add An Elemnet In Array : " << endl;
