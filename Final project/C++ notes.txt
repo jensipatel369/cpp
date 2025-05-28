@@ -1,0 +1,312 @@
+1.DMA :- Data Structure and Algorithm
+
+
+2.What is Data Structure?
+-> A data structure is a way of organizing and storing data in a computer so that it can be used efficiently.
+
+
+3.What is Algorithm?
+-> An Algorithm is a step-by-step procedure or formula for solving a problem.
+
+
+4.How many types of Translator?
+-> 1.Compiler :- Convert whole program into binary.
+   2.Interpreter :- Convert line by line into binary.  
+
+
+5.How many Objects?
+-> 1.cout
+   2.cin
+   3.endl manipulator
+
+
+6.What is Git?
+-> Git is free and open-source distributed version control system.
+
+
+7.Basic Git Commands :-
+   1.git add .
+   2.git commit -m "First commit"
+   3.git push
+
+
+8. What is GitHub?
+->GitHub is platform and cloud-based service for software development and version control, allowing developers to store and manage their code.
+
+
+9.How many types of Operators?
+-> 1.Arithmetic Operators (+,-,*,/,%)
+   2.Relational Operators (<,<=,>,>=,==,!=)
+   3.Logical Operators (&&,||,!)
+   4.Assignment Operators (=,+=,-=,*=,/=,%=)
+   5.Miscellaneous Operator (?:,sizeof,*,&)
+   6.Unary Operators (++,--)
+
+
+10.How many types of Conversion?
+->  1.Implicit Conversion
+    2.Explicit Conversion
+
+
+11.Conditional Statements :-
+->  1.if
+    2.if...else
+    3.ladder
+    4.nested
+    5.ternary (if...else) (?:)
+    6.switch case
+
+
+12.Loops :-
+-> 1.Entry Control Loop :-
+     - While loop
+     - for loop
+   2.Exit Control Loop :-
+     - do while loop
+
+
+13.What is Flowchart?
+-> A flowchart is a graphical representation of a process or algorithm.
+
+
+14.What is a Pattern?
+-> A "Pattern" is a specific arrangement of characters or symbols in a systematic and predictable manner.
+
+
+15.Categories of patterns :-
+-> 1.Number pattern
+   2.Character pattern
+   3.Symbol pattern
+
+
+16.Types of Patterns :-
+-> 1.Without space
+   2.With space
+   3.Custom space
+
+
+17.What is Array?
+-> An array is a collection of elements of the same data type.
+
+
+18.Types of Array :-
+-> 1.1D Array
+   2.2D,3D,...,ND Array
+
+
+19.What is 1D Array?
+-> A 1D array is a collection of elements of the same data type arranged in linear sequence.
+
+
+20.Most common operations :-
+-> 1.Insertion
+   2.Iteration
+   3.Modification
+
+
+21.What is For each loop?
+-> The "for each" loop is know as the "range-based for loop."
+
+
+22.What is sizeof() Operator?
+-> Determine the size, in bytes, of a data type or an object.
+
+
+23.CRUD Operations :-
+-> C :- Create
+   R :- Read
+   U :- Update
+   D :- Delete
+
+
+24.What is 2D Array?
+-> A 2D array is a data structure that represents a table or a matrix with rows and columns.
+
+
+25.What is Function?
+-> A function is a self-contained block of code that performs a specific task.
+
+
+26.UDF :- User Defined Function 
+
+
+27.Types of UDF?
+-> 1.TNRN :- Take Nothing , Return Nothing
+   2.TNRS :- Take Nothing , Return Something
+   3.TSRN :- Take Something , Return Nothing
+   4.TSRS :- Take Something , Return Something
+
+
+28.Waht is a Nested Function?
+-> A nested function usually refers to a function that is defined within another function.
+
+
+29.What is a Recursion? 
+-> Recursion is a programming concept in which a function calls itself directly or indirectly in order to solve a problem.(Function call itself)
+
+
+30.What is a Pointer?
+-> A pointer is a variable which holds a memory address of another variable.
+
+
+31.What is an Array of pointer?
+->Array of pointer means we have to create an array of multiple pointers.
+
+
+32.What is a Chain of pointer?
+-> A pointer to a pointer is a concept where a pointer variable holds the address of another pointer variable.
+-> This creates a chain of indirection.
+-> Chain of pointer is also know as pointer to pointer.
+
+
+33.What is Reference Variable?
+-> A reference variable is an alias or alternative name for an existing variable.
+
+
+34.How many types of Argument Passing?
+-> 1.Passing a value or a simple variable
+   2.Passing an array
+   3.Passing a pointer
+   4.Passing an address
+
+
+35.How many types of Function Calling?
+-> 1.Call by Value
+   2.Call by Reference
+   3.Call by Const Reference
+
+
+36.OOPs :- Object Oriented Programming System
+
+
+37.Principles of OOPs?
+-> 1.Abstraction
+   2.Encapsulation
+   3.Inheritance
+   4.Polymorephism
+
+
+38.Encapsulation Method :- 
+-> 1.Getter...Setter (Public)
+   2.this keyword
+   3.Constructor
+   4.Destrutor
+   5.Static keyword
+
+
+39.What is a array of objects?
+-> An array of objects is a collection of objects of the same class stored in contiguous memory locations.
+
+
+40.Scope Resolution Operator in commonly use :-
+-> 1.Access Global Variables
+   2.Access Static Members
+
+
+41.What is Static keyword?
+-> Instance is not required to access the static members.
+
+
+42.Use case of static keyword :-
+-> 1.Static Data Members
+   2.Static Member Function
+
+
+43.What is a Constructor?
+-> It has the same name as the class and is used to initialize the object's data members.
+
+
+44.Types of Constructors?
+-> 1.Defult Constructor
+   2.Parameterized Constructor
+   3.Copy Constructor
+
+
+45.What is a Destructors?
+-> A destructor are particularly useful for performing cleanup tasks.
+
+
+46.Types of Inheritance :-
+-> 1.Single / Simple
+   2.Multilevel
+   3.Multiple
+   4.Hierarchical
+   5.Hybrid
+
+
+47.What is Ambiguity in Hybrid Inheritance?
+-> Ambiguity in hybrid inheritance arises when there are multiple paths to access a particular in a derived class.
+
+
+48.Types of Polymorphism :- 
+-> 1.Compile-Time :-
+     i. Method Overloading
+    ii. Operator Overloading
+ 
+    2.Run-Time :-
+      i. Method Overriding
+
+
+49.Types of Abstraction :-
+->1.Access Modifiers / Access Specifiers :-
+      i. Public
+     ii. Private
+    iii. Protected
+  2.Abstract Class
+  3.Interface
+
+
+50.DMA :- Dynamic Memory Allocation
+
+
+51.SMA :- Static Memory Allocation
+
+
+52.What is static memory allocation?
+-> Memory allocated during compile time is called static memory.
+
+
+53.Memory Structure :-
+-> 1.Data Section (Global & Static variable)
+   2.Code Section (Holds the compiled program code)
+   3.Stack (Function calls and return, Local variable - Managed by Compiler Automatically)
+   4.Heap (Dynamic Memory Allocation - Managed by Programmer)
+
+
+54.Heap usage :-
+-> 1.Operator like new (C++)
+   2.Function malloc (C)
+
+
+55.What is dangling pointer?
+-> A dangling pointer in C++ is a pointer to a memory location that has been deallocated, or freed.
+
+
+56.RAM :- Random Access Memory
+
+
+57.Difference between C and C++ :-
+-> 1.C is a middle level language.
+     C++ is a high level language. 
+   2.C support function programming.
+     C++ support OOPs concept.
+   3.C is a Structure Programming Language.
+     C++ is an Object-Oriented Programming Language.
+   4.In C language :- Scanf(),Printf()
+     In C++ language :- cin>> , cout<<
+
+
+58.2D Array :- Two-Dimensional Array
+
+
+59.ROM :- Read only Memory
+
+
+60.DRY :- Don't Repeat Yourself
+
+
+
+Notes :-
+   1.Outer loop always iterates for Rows
+   2.Inner loop always iterates for Columns
+
